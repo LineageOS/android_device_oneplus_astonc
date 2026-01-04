@@ -53,14 +53,6 @@ PRODUCT_PACKAGES += \
 # Power
 $(call soong_config_set,qtipower,mode_ext_lib,power-ext-oplus)
 
-# Regional properties
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23801/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/23801/build.default.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23861/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/23861/build.EU.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23861/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/23861/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23861/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/23861/build.NA.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23861/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/23861/build.default.prop
-
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.oplus
@@ -90,4 +82,4 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
 $(call inherit-product, device/oneplus/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/aston/aston-vendor.mk)
+$(call inherit-product, vendor/oneplus/astonc/astonc-vendor.mk)

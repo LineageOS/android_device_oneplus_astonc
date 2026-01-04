@@ -10,10 +10,10 @@ BOARD_SUPER_PARTITION_SIZE := 16642998272
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8550-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/aston
+DEVICE_PATH := device/oneplus/astonc
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP5CF9L1,OP5D35L1
+TARGET_OTA_ASSERT_DEVICE := OP5CF9L1
 
 # Display
 TARGET_SCREEN_DENSITY := 420
@@ -30,4 +30,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/aston/BoardConfigVendor.mk
+include vendor/oneplus/astonc/BoardConfigVendor.mk
