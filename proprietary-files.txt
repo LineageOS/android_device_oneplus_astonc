@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12R (CPH2609_15.0.0.870(EX01)).
+## are from OnePlus Ace 3 (PJE110_15.0.0.870(CN01)).
 
 # ACDB
 odm/etc/acdbdata/FTM/acdb_cal.acdb
@@ -1241,7 +1241,7 @@ vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Charger firmware
-odm/firmware/fastchg/23861/charging_hyper_mode_config.txt
+odm/firmware/fastchg/23801/charging_hyper_mode_config.txt
 odm/firmware/fastchg/bms_heating_config.txt
 odm/firmware/fastchg/charge_time_config.csv
 odm/firmware/fastchg/charging_thermal_config_default.txt
@@ -1282,10 +1282,6 @@ odm/lib64/libpwirisservicei7p.so
 vendor/etc/display/qdcm_calib_data_AA551_P_3_A0004_dsc_cmd_mode_panel.json
 vendor/etc/ltm_config_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
 
-# eUICC
-my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
-my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-
 # Fingerprint firmware
 odm/vendor/firmware/uff_gx.b00
 odm/vendor/firmware/uff_gx.b01
@@ -1310,8 +1306,7 @@ odm/vendor/firmware/uff_spi.mdt
 
 # NFC configs
 odm/etc/nfc/libnfc-mtp-SN220.conf_23801:odm/etc/libnfc-mtp-SN220.conf_23801
-odm/etc/nfc/libnfc-mtp-SN220.conf_23861:odm/etc/libnfc-mtp-SN220.conf_23861
-odm/etc/nfc/libnfc-nci.conf_23861:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/libnfc-nci.conf_23801:vendor/etc/libnfc-nci.conf
 
 # NFC firmware
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_30:vendor/firmware/sn220u.bin
@@ -1324,12 +1319,13 @@ odm/etc/sensor/config/aston_qrd_ois_system.json
 odm/etc/sensor/config/kailua_mtp_alsps.json
 odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3720.json
 odm/etc/sensor/config/kailua_mtp_bmi26x.json
-odm/etc/sensor/config/kailua_mtp_bmp380.json
 odm/etc/sensor/config/kailua_mtp_cct_rear.json
 odm/etc/sensor/config/kailua_mtp_freefall.json
 odm/etc/sensor/config/kailua_mtp_mmc56x3x.json
 odm/etc/sensor/config/kailua_mtp_oplus_flight_detect.json
 odm/etc/sensor/config/kailua_mtp_oplus_lay.json
+odm/etc/sensor/config/kailua_mtp_oplus_measurement.json
+odm/etc/sensor/config/kailua_mtp_oplus_rotation_detect.json
 odm/etc/sensor/config/kailua_mtp_pocket.json
 odm/etc/sensor/config/kailua_mtp_smart_prox.json
 odm/etc/sensor/config/lux_aod.json
@@ -1370,8 +1366,6 @@ odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 odm/firmware/ufs/ufs_version_config.xml
 
 # WiFi
-odm/etc/wifi/kiwi/bdwlan.b0a
-odm/etc/wifi/kiwi/bdwlan.b0ie
 odm/etc/wifi/kiwi/bdwlan.elf
 odm/etc/wifi/kiwi/regdb.bin
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
