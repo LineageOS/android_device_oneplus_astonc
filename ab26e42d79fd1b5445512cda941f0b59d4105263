@@ -24,6 +24,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3347b19_70711126",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-26T21:11:46Z",
+      "side": 1,
+      "message": "Or maybe do the real revert and update in the follow-up commit.",
+      "revId": "ab26e42d79fd1b5445512cda941f0b59d4105263",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4b673aaa_bf66dee2",
