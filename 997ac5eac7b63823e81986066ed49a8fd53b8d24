@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f614102_c0767d44",
+        "filename": "odm.prop",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-26T21:13:31Z",
+      "side": 1,
+      "message": "You might drop this if you set the default config filename.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 63
+      },
+      "revId": "997ac5eac7b63823e81986066ed49a8fd53b8d24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
