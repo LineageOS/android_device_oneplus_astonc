@@ -22,8 +22,8 @@ PRODUCT_MODEL := PJE110
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 16 BP2A.250605.015 1769051856495 release-keys" \
-    BuildFingerprint=OnePlus/PJE110/OP5CF9L1:16/TP1A.220905.001/U.33c6f5d-1187a86-1187a84:user/release-keys \
+    BuildDesc="qssi-user 16 BP2A.250605.015 1775718310145 release-keys" \
+    BuildFingerprint=OnePlus/PJE110/OP5CF9L1:16/TP1A.220905.001/U.3113a47-dda718-dd6bdf:user/release-keys \
     DeviceName=OP5CF9L1 \
     DeviceProduct=PJE110 \
     SystemDevice=OP5CF9L1 \
